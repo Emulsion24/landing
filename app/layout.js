@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+// 1. Import your new component
+import FloatingMenu from "./components/FloatingMenu"; 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,6 +25,10 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        
+        {/* 2. Add the component here so it renders on every page */}
+        <FloatingMenu />
+        
       </body>
     </html>
   );
