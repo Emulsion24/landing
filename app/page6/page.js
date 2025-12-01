@@ -205,7 +205,7 @@ export default function RezillionLanding() {
           <div className="max-w-4xl mx-auto space-y-8 animate-fade-in-up">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-emerald-400 text-xs font-bold uppercase tracking-wider backdrop-blur-md">
               <Leaf className="w-3 h-3" />
-              India's #1 Solar Marketplace
+              Indias #1 Solar Marketplace
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.1]">
@@ -214,7 +214,7 @@ export default function RezillionLanding() {
             </h1>
             
             <p className="text-lg text-slate-400 leading-relaxed max-w-2xl mx-auto">
-              We've built the complete ecosystem for going solar. Assess feasibility, design your system, and get verified bids—without the sales calls.
+              Weve built the complete ecosystem for going solar. Assess feasibility, design your system, and get verified bids—without the sales calls.
             </p>
             
             <div className="flex flex-wrap justify-center gap-4">
@@ -491,7 +491,7 @@ export default function RezillionLanding() {
                 </div>
                 <span className="text-xl font-bold text-white">Rezillion</span>
               </div>
-              <p className="text-slate-400 max-w-xs">Connecting homeowners with India's best solar installers for a cleaner, greener future.</p>
+              <p className="text-slate-400 max-w-xs">Connecting homeowners with Indias best solar installers for a cleaner, greener future.</p>
             </div>
             
             <div className="grid grid-cols-2 md:grid-cols-3 gap-16">

@@ -29,9 +29,8 @@ export default function RezillionLanding() {
     { name: "Sample 6", path: "/page6" },
   ];
 
-  const handleNavigation = (path) => {
-    window.location.href = path;
-  };
+
+  
   // -----------------------------------------------
 
   const solutionTabs = [
