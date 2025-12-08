@@ -27,6 +27,7 @@ export default function RezillionLanding() {
     { name: "Sample 4", path: "/page4" },
     { name: "Sample 5", path: "/page5" },
     { name: "Sample 6", path: "/page6" },
+    { name: "admin", path: "/admin" },
   ];
 
 
