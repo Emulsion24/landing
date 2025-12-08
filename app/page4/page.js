@@ -18,6 +18,7 @@ import RezillionFeatures from "../components/FeaturesSection";
 import SolarFeaturesScroll from "../components/ScrollFeature";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import SolarFeatures from "../components/fsection";
 
 /**
  * ANIMATION WRAPPER
@@ -261,6 +262,7 @@ export default function RezillionLandingV6() {
         </section>
 
         <RezillionFeatures/>
+        <SolarFeatures/>
 
         <section id="faq" className="py-24 bg-slate-50">
             <div className="container mx-auto max-w-3xl px-4">
