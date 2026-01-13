@@ -1,3 +1,4 @@
+"use client";
 import { useState } from 'react';
 import Image from 'next/image';
 import { ArrowRight, Menu, X } from 'lucide-react';
@@ -10,7 +11,7 @@ export default function Header() {
       <div className="container mx-auto max-w-7xl px-4 md:px-6 h-20 flex items-center justify-between">
 
         {/* LOGO - Added negative margin (-ml-4 and md:-ml-8) here */}
-        <div className="flex items-center gap-2 group cursor-pointer select-none -ml-8 md:-ml-16">
+        <div className="flex items-center gap-2 group cursor-pointer select-none -ml-8 md:-ml-30">
           <div className="relative transition-transform duration-300 group-hover:scale-105">
             <Image
               src="/logo2.png"
